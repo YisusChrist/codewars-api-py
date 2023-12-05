@@ -18,11 +18,13 @@ from .api import CodewarsAPI
 from .logs import logger
 
 
-def main(args) -> int:
+def main() -> int:
     """
     Main function
     """
     logger.info("Start of session")
+    
+    args = get_parsed_args()
 
     # Example Usage
     codewars_api = CodewarsAPI()
@@ -53,8 +55,6 @@ def main(args) -> int:
 
 
 if __name__ == "__main__":
-    args = get_parsed_args()
-    DEBUG = args.debug
     # Enable rich error formatting in debug mode
     install(show_locals=DEBUG)
     if DEBUG:
@@ -63,6 +63,6 @@ if __name__ == "__main__":
         import cProfile
 
         print("[yellow]Profiling is enabled[/yellow]")
-        cProfile.run("main(args)")
+        cProfile.run("main()")
     else:
-        main(args)
+        main()

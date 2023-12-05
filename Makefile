@@ -24,7 +24,7 @@ SPHINXOPTS  :=
 # Methods of running the application.
 .PHONY: run
 run:				# Run the application
-	$(python) -m $(package)
+	$(run) $(package)
 
 .PHONY: debug
 debug:				# Run the application in debug mode
