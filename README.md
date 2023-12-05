@@ -46,13 +46,13 @@ Effortlessly interact with the Codewars API using this Python wrapper. Simplify 
 1. Install the package:
 
     ```bash
-    pip install codewars-api-wrapper
+    pip install codewars-api-py
     ```
 
 2. Use the wrapper in your Python script:
 
     ```python
-    from codewars_api_wrapper import CodewarsAPI
+    from codewars_api_py import CodewarsAPI
 
     # Initialize the Codewars API wrapper
     codewars_api = CodewarsAPI()

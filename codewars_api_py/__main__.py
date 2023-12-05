@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Main module of the codewars-api-wrapper package.
+Main module of the codewars-api-py package.
 
 This module contains the main function of the package.
 

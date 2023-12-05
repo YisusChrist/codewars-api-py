@@ -8,8 +8,8 @@ body:
       attributes:
           value: |
               ## Self Check
-              - Look for similar errors in existing [GitHub Issues](https://github.com/YisusChrist/codewars-api-wrapper/issues?q=is%3Aissue) (open or closed).
-              - Take a look at the [documentation](https://github.com/YisusChrist/codewars-api-wrapper/wiki) for help.
+              - Look for similar errors in existing [GitHub Issues](https://github.com/YisusChrist/codewars-api-py/issues?q=is%3Aissue) (open or closed).
+              - Take a look at the [documentation](https://github.com/YisusChrist/codewars-api-py/wiki) for help.
     - type: textarea
       validations:
           required: true
@@ -50,7 +50,7 @@ body:
           required: true
       attributes:
           label: Codewars API Wrapper version
-          description: Run `python -m codewars_api_wrapper -V` to check.
+          description: Run `python -m codewars_api_py -V` to check.
           placeholder: "1.0"
     - type: textarea
       attributes:
