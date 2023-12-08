@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "codewars-api-py"
-version = "0.1.1"
+version = "1.0.0"
 description = "Effortlessly interact with Codewars API using a Python wrapper"
 license = "GPL-3.0-only"
 authors = ["Alejandro González Momblán <agelrenorenardo@gmail.com>"]
@@ -8,6 +8,9 @@ readme = "README.md"
 
 [tool.poetry.urls]
 Changelog = "https://github.com/yisuschrist/codewars-api-py/releases"
+Homepage = "https://github.com/yisuschrist/codewars-api-py"
+Issues = "https://github.com/yisuschrist/codewars-api-py/issues"
+Repository = "https://github.com/yisuschrist/codewars-api-py"
 
 [tool.poetry.dependencies]
 python = "^3.11"

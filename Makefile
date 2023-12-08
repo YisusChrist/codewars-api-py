@@ -52,6 +52,16 @@ clean:				# Clean up the package builds
 	rm -rf dist
 
 ##############################################################################
+# Package publishing.
+.PHONY: publish
+publish:			# Publish the package to PyPI
+	poetry publish --build
+
+.PHONY: publish-test
+publish-test:		# Publish the package to TestPyPI
+	poetry publish --build -r testpypi
+
+##############################################################################
 # Reformatting tools.
 .PHONY: black
 black:				# Run black over the code

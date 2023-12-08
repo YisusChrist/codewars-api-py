@@ -9,3 +9,5 @@ __desc__ = metadata.metadata(__package__ or __name__)["Summary"]
 PACKAGE = metadata.metadata(__package__ or __name__)["Name"]
 
 __all__ = ["__version__", "__desc__", "PACKAGE"]
+
+from .api import CodewarsAPI
