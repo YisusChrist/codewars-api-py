@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "codewars-api-py"
-version = "1.0.1"
+version = "1.0.2"
 description = "Effortlessly interact with Codewars API using a Python wrapper"
 license = "GPL-3.0-only"
 authors = ["Alejandro González Momblán <agelrenorenardo@gmail.com>"]
