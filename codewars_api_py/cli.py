@@ -5,7 +5,7 @@ from argparse import ArgumentParser, Namespace
 from rich import print
 from rich_argparse_plus import RichHelpFormatterPlus
 
-from .consts import DESC, EXIT_FAILURE, LOG_PATH, NAME, VERSION, update_debug
+from .consts import DESC, EXIT_FAILURE, LOG_PATH, PACKAGE, VERSION, update_debug
 from .logs import logger
 
 
@@ -56,7 +56,7 @@ def get_parsed_args() -> Namespace:
         "--version",
         action="version",
         help="Show version number and exit.",
-        version=f"[argparse.prog]{NAME}[/] version [i]{VERSION}[/]",
+        version=f"[argparse.prog]{PACKAGE}[/] version [i]{VERSION}[/]",
     )
 
     args = parser.parse_args()
