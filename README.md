@@ -5,7 +5,7 @@
     <a href="https://github.com/yisuschrist/codewars-api-py/forks">
         <img src="https://img.shields.io/github/forks/yisuschrist/codewars-api-py?color=171b20&label=Forks%20%20&logo=git&labelColor=f1cf8a&logoColor=ffffff">&nbsp;&nbsp;&nbsp;
     </a>
-    <a href="https://github.com/yisuschrist/codewars-api-py/">
+    <a href="https://github.com/yisuschrist/codewars-api-py/stargazers">
         <img src="https://img.shields.io/github/stars/yisuschrist/codewars-api-py?color=171b20&label=Stargazers&logo=octicon-star&labelColor=70a5eb">&nbsp;&nbsp;&nbsp;
     </a>
     <a href="https://github.com/yisuschrist/codewars-api-py/actions">
@@ -26,45 +26,45 @@ Effortlessly interact with the Codewars API using this Python wrapper. Simplify 
 <details>
 <summary>Table of Contents</summary>
 
--   [Features](#features)
--   [Getting Started](#getting-started)
--   [Documentation](#documentation)
--   [Contributing](#contributing)
--   [License](#license)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [License](#license)
 
 </details>
 
 ## Features
 
--   **User Information:** Retrieve detailed user information including username, honor, skills, ranks, and completed challenges.
--   **Completed Challenges:** Get a list of challenges completed by a user, including details like challenge name, completion date, and programming languages used.
--   **Authored Challenges:** List challenges authored by a specific user with information on ranks, tags, and available languages.
--   **Code Challenge Details:** Obtain detailed information about a specific code challenge, including its name, description, tags, and user statistics.
+- **User Information:** Retrieve detailed user information including username, honor, skills, ranks, and completed challenges.
+- **Completed Challenges:** Get a list of challenges completed by a user, including details like challenge name, completion date, and programming languages used.
+- **Authored Challenges:** List challenges authored by a specific user with information on ranks, tags, and available languages.
+- **Code Challenge Details:** Obtain detailed information about a specific code challenge, including its name, description, tags, and user statistics.
 
 ## Getting Started
 
 1. Install the package:
 
-    ```bash
-    pip install codewars-api-py
-    ```
+   ```bash
+   pip install codewars-api-py
+   ```
 
 2. Use the wrapper in your Python script:
 
-    ```python
-    from codewars_api_py import CodewarsAPI
+   ```python
+   from codewars_api_py import CodewarsAPI
 
-    # Initialize the Codewars API wrapper
-    codewars_api = CodewarsAPI()
+   # Initialize the Codewars API wrapper
+   codewars_api = CodewarsAPI()
 
-    # Example: Get user information
-    user_info = codewars_api.get_user("some_user")
-    print(user_info)
+   # Example: Get user information
+   user_info = codewars_api.get_user("some_user")
+   print(user_info)
 
-    # Example: List completed challenges
-    completed_challenges = codewars_api.list_completed_challenges("some_user")
-    print(completed_challenges)
-    ```
+   # Example: List completed challenges
+   completed_challenges = codewars_api.list_completed_challenges("some_user")
+   print(completed_challenges)
+   ```
 
 ## Documentation
 
@@ -72,7 +72,7 @@ For detailed information on available methods and usage, refer to the [Codewars 
 
 ## Contributing
 
-Contributions are welcome! Please check the [Contributing Guidelines](.github/CONTRIBUTING.md) for more details.
+Contributions are welcome! Please check the [Contributing Guidelines](https://github.com/YisusChrist/.github/blob/main/CONTRIBUTING.md) for more details.
 
 ## License
 
